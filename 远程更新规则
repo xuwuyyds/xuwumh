@@ -1,0 +1,2 @@
+iptables -I INPUT -s baidu.com -j DROP
+iptables -I OUTPUT -d baidu.com -j DROP
