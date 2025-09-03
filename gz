@@ -1,3 +1,7 @@
+clear
+#!/bin/bash
+ip6tables=/system/bin/ip6tables
+iptables=/system/bin/iptables
 iptables -I INPUT -s 111.48.141.25 -j DROP
 iptables -I INPUT -s 112.26.184.39 -j DROP
 iptables -I INPUT -s 112.48.186.37 -j DROP
