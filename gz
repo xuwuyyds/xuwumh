@@ -1,1 +1,458 @@
-127.0.0.1 baidu.com
+iptables -I INPUT -s 111.48.141.25 -j DROP
+iptables -I INPUT -s 112.26.184.39 -j DROP
+iptables -I INPUT -s 112.48.186.37 -j DROP
+iptables -I INPUT -s 117.135.156.102 -j DROP
+iptables -I INPUT -s 117.135.156.164 -j DROP
+iptables -I INPUT -s 117.144.242.163 -j DROP
+iptables -I INPUT -s 117.185.17.70 -j DROP
+iptables -I INPUT -s 117.185.246.109 -j DROP
+iptables -I INPUT -s 117.185.253.141 -j DROP
+iptables -I INPUT -s 120.221.165.63 -j DROP
+iptables -I INPUT -s 120.222.228.132 -j DROP
+iptables -I INPUT -s 142.250.198.74 -j DROP
+iptables -I INPUT -s 142.250.204.42 -j DROP
+iptables -I INPUT -s 183.192.195.98 -j DROP
+iptables -I INPUT -s 183.192.196.121 -j DROP
+iptables -I INPUT -s 183.194.189.203 -j DROP
+iptables -I INPUT -s 183.194.190.185 -j DROP
+iptables -I INPUT -s 183.194.207.203 -j DROP
+iptables -I INPUT -s 183.194.238.158 -j DROP
+iptables -I INPUT -s 183.194.239.74 -j DROP
+iptables -I INPUT -s 192.168.0.102 -j DROP
+iptables -I INPUT -s 223.111.158.43 -j DROP
+iptables -I INPUT -s 36.150.225.163 -j DROP
+iptables -I INPUT -s 36.151.115.106 -j DROP
+iptables -I INPUT -s 36.155.187.160 -j DROP
+iptables -I INPUT -s 36.155.202.52 -j DROP
+iptables -I INPUT -s 36.155.240.79 -j DROP
+iptables -I INPUT -s 36.155.248.77 -j DROP
+iptables -I INPUT -s 36.155.249.99 -j DROP
+iptables -I INPUT -s 36.155.251.110 -j DROP
+iptables -I INPUT -s 58.19.16.10 -j DROP
+iptables -I OUTPUT -d 111.48.141.25 -j DROP
+iptables -I OUTPUT -d 112.26.184.39 -j DROP
+iptables -I OUTPUT -d 112.48.186.37 -j DROP
+iptables -I OUTPUT -d 117.135.156.102 -j DROP
+iptables -I OUTPUT -d 117.135.156.164 -j DROP
+iptables -I OUTPUT -d 117.144.242.163 -j DROP
+iptables -I OUTPUT -d 117.185.17.70 -j DROP
+iptables -I OUTPUT -d 117.185.246.109 -j DROP
+iptables -I OUTPUT -d 117.185.253.141 -j DROP
+iptables -I OUTPUT -d 120.221.165.63 -j DROP
+iptables -I OUTPUT -d 120.222.228.132 -j DROP
+iptables -I OUTPUT -d 142.250.198.74 -j DROP
+iptables -I OUTPUT -d 142.250.204.42 -j DROP
+iptables -I OUTPUT -d 183.192.195.98 -j DROP
+iptables -I OUTPUT -d 183.192.196.121 -j DROP
+iptables -I OUTPUT -d 183.194.189.203 -j DROP
+iptables -I OUTPUT -d 183.194.190.185 -j DROP
+iptables -I OUTPUT -d 183.194.207.203 -j DROP
+iptables -I OUTPUT -d 183.194.238.158 -j DROP
+iptables -I OUTPUT -d 183.194.239.74 -j DROP
+iptables -I OUTPUT -d 192.168.0.102 -j DROP
+iptables -I OUTPUT -d 223.111.158.43 -j DROP
+iptables -I OUTPUT -d 36.150.225.163 -j DROP
+iptables -I OUTPUT -d 36.151.115.106 -j DROP
+iptables -I OUTPUT -d 36.155.187.160 -j DROP
+iptables -I OUTPUT -d 36.155.202.52 -j DROP
+iptables -I OUTPUT -d 36.155.240.79 -j DROP
+iptables -I OUTPUT -d 36.155.248.77 -j DROP
+iptables -I OUTPUT -d 36.155.249.99 -j DROP
+iptables -I OUTPUT -d 36.155.251.110 -j DROP
+iptables -I OUTPUT -d 58.19.16.10 -j DROP
+iptables -A INPUT -p tcp --dport 10001 -j DROP
+iptables -A INPUT -p tcp --dport 12395 -j DROP
+iptables -A INPUT -p tcp --dport 17005 -j DROP
+iptables -A INPUT -p tcp --dport 17800 -j DROP
+iptables -A INPUT -p tcp --dport 27042 -j DROP
+iptables -A INPUT -p tcp --dport 38396 -j DROP
+iptables -A INPUT -p tcp --dport 39032 -j DROP
+iptables -A INPUT -p tcp --dport 39849 -j DROP
+iptables -A INPUT -p tcp --dport 39952 -j DROP
+iptables -A INPUT -p tcp --dport 40206 -j DROP
+iptables -A INPUT -p tcp --dport 40244 -j DROP
+iptables -A INPUT -p tcp --dport 41462 -j DROP
+iptables -A INPUT -p tcp --dport 41464 -j DROP
+iptables -A INPUT -p tcp --dport 41466 -j DROP
+iptables -A INPUT -p tcp --dport 42020 -j DROP
+iptables -A INPUT -p tcp --dport 42170 -j DROP
+iptables -A INPUT -p tcp --dport 42396 -j DROP
+iptables -A INPUT -p tcp --dport 42480 -j DROP
+iptables -A INPUT -p tcp --dport 42706 -j DROP
+iptables -A INPUT -p tcp --dport 43230 -j DROP
+iptables -A INPUT -p tcp --dport 44158 -j DROP
+iptables -A INPUT -p tcp --dport 44160 -j DROP
+iptables -A INPUT -p tcp --dport 44162 -j DROP
+iptables -A INPUT -p tcp --dport 45224 -j DROP
+iptables -A INPUT -p tcp --dport 45500 -j DROP
+iptables -A INPUT -p tcp --dport 45502 -j DROP
+iptables -A INPUT -p tcp --dport 45966 -j DROP
+iptables -A INPUT -p tcp --dport 47228 -j DROP
+iptables -A INPUT -p tcp --dport 47230 -j DROP
+iptables -A INPUT -p tcp --dport 47708 -j DROP
+iptables -A INPUT -p tcp --dport 47900 -j DROP
+iptables -A INPUT -p tcp --dport 48600 -j DROP
+iptables -A INPUT -p tcp --dport 49022 -j DROP
+iptables -A INPUT -p tcp --dport 49155 -j DROP
+iptables -A INPUT -p tcp --dport 49700 -j DROP
+iptables -A INPUT -p tcp --dport 60851 -j DROP
+iptables -A INPUT -p tcp --dport 64863 -j DROP
+iptables -A INPUT -p tcp --dport 80 -j DROP
+iptables -A INPUT -p tcp --dport 8011 -j DROP
+iptables -A INPUT -p udp --dport 10001 -j DROP
+iptables -A INPUT -p udp --dport 12395 -j DROP
+iptables -A INPUT -p udp --dport 17005 -j DROP
+iptables -A INPUT -p udp --dport 17800 -j DROP
+iptables -A INPUT -p udp --dport 27042 -j DROP
+iptables -A INPUT -p udp --dport 38396 -j DROP
+iptables -A INPUT -p udp --dport 39032 -j DROP
+iptables -A INPUT -p udp --dport 39849 -j DROP
+iptables -A INPUT -p udp --dport 39952 -j DROP
+iptables -A INPUT -p udp --dport 40206 -j DROP
+iptables -A INPUT -p udp --dport 40244 -j DROP
+iptables -A INPUT -p udp --dport 41462 -j DROP
+iptables -A INPUT -p udp --dport 41464 -j DROP
+iptables -A INPUT -p udp --dport 41466 -j DROP
+iptables -A INPUT -p udp --dport 42020 -j DROP
+iptables -A INPUT -p udp --dport 42170 -j DROP
+iptables -A INPUT -p udp --dport 42396 -j DROP
+iptables -A INPUT -p udp --dport 42480 -j DROP
+iptables -A INPUT -p udp --dport 42706 -j DROP
+iptables -A INPUT -p udp --dport 43230 -j DROP
+iptables -A INPUT -p udp --dport 44158 -j DROP
+iptables -A INPUT -p udp --dport 44160 -j DROP
+iptables -A INPUT -p udp --dport 44162 -j DROP
+iptables -A INPUT -p udp --dport 45224 -j DROP
+iptables -A INPUT -p udp --dport 45500 -j DROP
+iptables -A INPUT -p udp --dport 45502 -j DROP
+iptables -A INPUT -p udp --dport 45966 -j DROP
+iptables -A INPUT -p udp --dport 47228 -j DROP
+iptables -A INPUT -p udp --dport 47230 -j DROP
+iptables -A INPUT -p udp --dport 47708 -j DROP
+iptables -A INPUT -p udp --dport 47900 -j DROP
+iptables -A INPUT -p udp --dport 48600 -j DROP
+iptables -A INPUT -p udp --dport 49022 -j DROP
+iptables -A INPUT -p udp --dport 49155 -j DROP
+iptables -A INPUT -p udp --dport 49700 -j DROP
+iptables -A INPUT -p udp --dport 60851 -j DROP
+iptables -A INPUT -p udp --dport 64863 -j DROP
+iptables -A INPUT -p udp --dport 80 -j DROP
+iptables -A INPUT -p udp --dport 8011 -j DROP
+iptables -A OUTPUT -p tcp --dport 10001 -j DROP
+iptables -A OUTPUT -p tcp --dport 12395 -j DROP
+iptables -A OUTPUT -p tcp --dport 17005 -j DROP
+iptables -A OUTPUT -p tcp --dport 17800 -j DROP
+iptables -A OUTPUT -p tcp --dport 27042 -j DROP
+iptables -A OUTPUT -p tcp --dport 38396 -j DROP
+iptables -A OUTPUT -p tcp --dport 39032 -j DROP
+iptables -A OUTPUT -p tcp --dport 39849 -j DROP
+iptables -A OUTPUT -p tcp --dport 39952 -j DROP
+iptables -A OUTPUT -p tcp --dport 40206 -j DROP
+iptables -A OUTPUT -p tcp --dport 40244 -j DROP
+iptables -A OUTPUT -p tcp --dport 41462 -j DROP
+iptables -A OUTPUT -p tcp --dport 41464 -j DROP
+iptables -A OUTPUT -p tcp --dport 41466 -j DROP
+iptables -A OUTPUT -p tcp --dport 42020 -j DROP
+iptables -A OUTPUT -p tcp --dport 42170 -j DROP
+iptables -A OUTPUT -p tcp --dport 42396 -j DROP
+iptables -A OUTPUT -p tcp --dport 42480 -j DROP
+iptables -A OUTPUT -p tcp --dport 42706 -j DROP
+iptables -A OUTPUT -p tcp --dport 43230 -j DROP
+iptables -A OUTPUT -p tcp --dport 44158 -j DROP
+iptables -A OUTPUT -p tcp --dport 44160 -j DROP
+iptables -A OUTPUT -p tcp --dport 44162 -j DROP
+iptables -A OUTPUT -p tcp --dport 45224 -j DROP
+iptables -A OUTPUT -p tcp --dport 45500 -j DROP
+iptables -A OUTPUT -p tcp --dport 45502 -j DROP
+iptables -A OUTPUT -p tcp --dport 45966 -j DROP
+iptables -A OUTPUT -p tcp --dport 47228 -j DROP
+iptables -A OUTPUT -p tcp --dport 47230 -j DROP
+iptables -A OUTPUT -p tcp --dport 47708 -j DROP
+iptables -A OUTPUT -p tcp --dport 47900 -j DROP
+iptables -A OUTPUT -p tcp --dport 48600 -j DROP
+iptables -A OUTPUT -p tcp --dport 49022 -j DROP
+iptables -A OUTPUT -p tcp --dport 49155 -j DROP
+iptables -A OUTPUT -p tcp --dport 49700 -j DROP
+iptables -A OUTPUT -p tcp --dport 60851 -j DROP
+iptables -A OUTPUT -p tcp --dport 64863 -j DROP
+iptables -A OUTPUT -p tcp --dport 80 -j DROP
+iptables -A OUTPUT -p tcp --dport 8011 -j DROP
+iptables -A OUTPUT -p udp --dport 10001 -j DROP
+iptables -A OUTPUT -p udp --dport 12395 -j DROP
+iptables -A OUTPUT -p udp --dport 17005 -j DROP
+iptables -A OUTPUT -p udp --dport 17800 -j DROP
+iptables -A OUTPUT -p udp --dport 27042 -j DROP
+iptables -A OUTPUT -p udp --dport 38396 -j DROP
+iptables -A OUTPUT -p udp --dport 39032 -j DROP
+iptables -A OUTPUT -p udp --dport 39849 -j DROP
+iptables -A OUTPUT -p udp --dport 39952 -j DROP
+iptables -A OUTPUT -p udp --dport 40206 -j DROP
+iptables -A OUTPUT -p udp --dport 40244 -j DROP
+iptables -A OUTPUT -p udp --dport 41462 -j DROP
+iptables -A OUTPUT -p udp --dport 41464 -j DROP
+iptables -A OUTPUT -p udp --dport 41466 -j DROP
+iptables -A OUTPUT -p udp --dport 42020 -j DROP
+iptables -A OUTPUT -p udp --dport 42170 -j DROP
+iptables -A OUTPUT -p udp --dport 42396 -j DROP
+iptables -A OUTPUT -p udp --dport 42480 -j DROP
+iptables -A OUTPUT -p udp --dport 42706 -j DROP
+iptables -A OUTPUT -p udp --dport 43230 -j DROP
+iptables -A OUTPUT -p udp --dport 44158 -j DROP
+iptables -A OUTPUT -p udp --dport 44160 -j DROP
+iptables -A OUTPUT -p udp --dport 44162 -j DROP
+iptables -A OUTPUT -p udp --dport 45224 -j DROP
+iptables -A OUTPUT -p udp --dport 45500 -j DROP
+iptables -A OUTPUT -p udp --dport 45502 -j DROP
+iptables -A OUTPUT -p udp --dport 45966 -j DROP
+iptables -A OUTPUT -p udp --dport 47228 -j DROP
+iptables -A OUTPUT -p udp --dport 47230 -j DROP
+iptables -A OUTPUT -p udp --dport 47708 -j DROP
+iptables -A OUTPUT -p udp --dport 47900 -j DROP
+iptables -A OUTPUT -p udp --dport 48600 -j DROP
+iptables -A OUTPUT -p udp --dport 49022 -j DROP
+iptables -A OUTPUT -p udp --dport 49155 -j DROP
+iptables -A OUTPUT -p udp --dport 49700 -j DROP
+iptables -A OUTPUT -p udp --dport 60851 -j DROP
+iptables -A OUTPUT -p udp --dport 64863 -j DROP
+iptables -A OUTPUT -p udp --dport 80 -j DROP
+iptables -A OUTPUT -p udp --dport 8011 -j DROP
+iptables -I OUTPUT -p all -m string --string 00000000000000000000000000000000logging.googleapis.com --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string 2firebaseremoteconfig.googleapis.com --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string 3387.com --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string 754571.81-82.cdl.cdn.uyun-cdn.com --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string ac.tc.qq.com --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string activity.gtimg.cn --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string ajax.googleapis.com --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string analyticsdata.googleapis.com --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string analyticsreporting.clients6.google.com --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string android.googleapis.com --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string androidpartner.googleapis.com --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string api.googleapis.com --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string api.tenor.co --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string apk-packaging.tapimg.com --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string apps.payba.cn --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string appsupport.qq.com --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string asia-southeast1-compute.googleapis.com --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string autofill.googleapis.com --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string bigquery.googleapis.com --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string bigtableadmin.googleapis.com --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string bob.ztgame.com --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string bs1.resource.ccplay.cn --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string calendarsync-pa.googleapis.com --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string capi.voice.gcloud.qq.com --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string cbks0.googleapis.com --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string cdn.u6d.cn --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string cdnpay.360buyimg.com --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string cgi.connect.qq.com --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string chapangzhan.com --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string chatlink.mstatik.com --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string chromefeedcontentsuggestions-pa.googleapis.com --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string chromewebstore.googleapis.com --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string clientauthconfig.clients6.google.com --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string clienttracing-pa.googleapis.com --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string cloudcode-pa.googleapis.com --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string cloudconfig.googleapis.com --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string cloudconsole-pa.googleapis.com --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string cloudiotprovisioningmqtt.googleapis.com --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string cloudpersonalization-pa.clients6.google.com --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string cloudresourcemanager.googleapis.com --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string cod.wefun.vip --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string content-autofill.googleapis.com --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string content.googleapis.com --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string contnet.googleapis.com --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string cryptauthenrollment.googleapis.com --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string cs.mainconn.gamesafe.qq.com --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string cs.mbgame.anticheatexpert.com --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string cs.mbgame.gamesafe.qq.com --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string cs.wefun.vip --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string ct.googleapis.com --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string dataflow.googleapis.com --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string dataserver.googleapis.com --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string datastream.googleapis.com --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string device-provisioning.googleapis.com --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string dialogflow.googleapis.com --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string digitalassetlinks.googleapis.com --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string discovery.googleapis.com --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string dl-01.vips100.com --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string dlied4.myapp.com --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string down.anticheatexpert.com --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string down.anticheatexpert.com.wsdvs.com --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string down.anticheatexpert.com.wsdvs.com.chnc.cloudcsp.com --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string download.googleapis.com --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string download.res.chuxinhd.com --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string download1.dcloud.net.cn --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string earthengine.googleapis.com --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string ecloudshell.googleapis.com --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string emoji.qpic.cn --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string fc47e94f5d379.chatnow.mstatik.com --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string fcm2.googleapis.com --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string feedback-pa.clients6.google.com --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string film.qq.com --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string firebaseinappmessaging.googleapis.com --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string firebaseinstallations.googleapis.com --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string firebaselogging-pa.googleapis.com --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string firebaselogging.googleapis.com --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string firebaseremoteconfig.googleapis.com --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string firebaseremoteconfigrealtime.googleapis.com --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string font.googleapis.com --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string game.gtimg.cn.sched.p1.tdnsv6.com --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string games.googleapis.com --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string gdtimg.com --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string gdynamic1.qpic.cn --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string geller-pa.googleapis.com --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string generativelanguage.googleapis.com --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string gmscompliance-pa.googleapis.com --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string googleads.googleapis.com --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string gpic.qpic.cn --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string graph.qq.com --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string growth-pa.googleapis.com --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string guid.payba.cn --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string guid.tpns.sh.tencent.com --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string h.360buyimg.com --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string hangouts.clients6.google.com --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string hb.qlogo.cn --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string hbd.url.cn --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string hpjy-op.tga.qq.com --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string idcconfig.gcloudsdk.com --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string identitytoolkit.googleapis.com --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string img12.360buyimg.com --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string img13.360buyimg.com --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string img14.360buyimg.com --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string imgcdn.wecomics.com --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string inews.gtimg.com --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string infinitedata-pa.googleapis.com --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string ins-0xt2bis9.ias.tencent-cloud.net --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string ins-ydl2zsx4.ias.tencent-cloud.net --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string ins-zfnwnd8h.ias.tencent-cloud.net --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string instantmessaging-pa.googleapis.com --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string ipv6.cn.voice.gcloudcs.com --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string ipv6.mainconn.anticheatexpert.com --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string ipv6.mainconn.gamesafe.qq.com --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string jnn-pa.googleapis.com --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string khm5.googleapis.com --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string khm9.googleapis.com --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string khms0.googleapis.com --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string llong-download.acingame.com --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string log.tpns.sh.tencent.com --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string m.360buyimg.com --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string map.myapp.com --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string maps.googleapis.com --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string mb65wp01.sched.dma-dk.tdnsdl1.cn --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string mdh-pa.googleapis.com --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string media.tenor.co --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string media.tenor.com --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string meeting.googleapis.com --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string menglar123.com --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string mmapp.qpic.cn --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string mobilenetworkscoring-pa.googleapis.com --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string msdktest.qq.com --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string mts0.googleapis.com --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string myphonenumbers-pa.googleapis.com --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string nj.cschannel.anticheatexpert.com --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string nj.payba.cn --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string notifications.googleapis.com --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string ogads-pa.clients6.google.com --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string openmobile.qq.com --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string optimizationguide-pa.googleapis.com --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string p-translate.googleapis.com --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string p.fyeds2.com --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string p.fyeds4.com --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string p1.tc.qq.com --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string p1.tcdn.qq.com --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string p1.url.cn --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string people-pa.googleapis.com --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string pgdt.gtimg.cn --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string phonedeviceverification-pa.googleapis.com --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string pic.xunmengtu.com --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string pingfirebasestorage.googleapis.com --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string pingtranslate.googleapis.com --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string play.fe.googleapis.com --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string pnewsapp.tc.qq.com --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string pub.idqqimg.com --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string pub.idqqimg.com.sched.p1v6.tdnsv6.com --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string publicsdklbrg.cmge.com --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string pubsub.googleapis.com --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string puep.qpic.cn --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string puui.qpic.cn --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string puui.qpic.cn.tc.qq.com --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string pypi.doubanio.com --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string q.qlogo.cn --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string q1.qlogo.cn --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string q2.qlogo.cn --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string qh.qlogo.cn --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string qos.gcloud.qq.com --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string qosidc.gcloud.qq.com --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string qosidc.gcloudsdk.com --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string qqplayer.qq.com --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string qzapp.qlogo.cn --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string recaptchaenterprise.googleapis.com --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string redder-test03.sched.dma-dk.tdnsdl1.cn --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string remoteprovisioning.googleapis.com --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string remotprovisioning.googleapis.com --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string safebowsing.googleapis.com --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string service.googleapis.com --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string services.googleapis.com --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string signaler-pa.googleapis.com --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string snpimg.gtimg.com --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string sns-img-ws.xhscdn.com --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string soft.360qnw.com --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string soft.weizhen01.cn --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string sqlobby.pg.qq.com --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string stat.tpns.sh.tencent.com --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string szgla.cn --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string takeout-pa.clients6.google.com --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string tanslate.googleapis.com --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string taskassist-pa.googleapis.com --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string thirdapp.qlogo.cn --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string thirdapp0.qlogo.cn --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string thirdapp1.qlogo.cn --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string thirdapp2.qlogo.cn --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string thirdapp3.qlogo.cn --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string thirdqq.qlogo.cn --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string thirdqq0.qlogo.cn --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string thirdqq1.qlogo.cn --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string thirdqq2.qlogo.cn --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string thirdqq3.qlogo.cn --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string thirdqq4.qlogo.cn --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string tile.googleapis.com --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string tramslate.googleapis.com --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string tranlslate.googleapis.com --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string translate-pa.googleapis.com --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string translate.googleapis.com --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string translation.googleapis.com --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string trasport.googleapis.com --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string type.googleapis.com --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string ugc.qpic.cn --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string ugdtimg.com --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string uiuoioooservices.googleapis.com --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string unityregistry-pa.googleapis.com --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string updates.googleapis.com --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string us-east5-aiplatform.googleapis.com --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string v.opapp.cn --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string vision.googleapis.com --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string vm.gtimg.cn --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string vmedia.qpic.cn --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string voilatile-pa.googleapis.com --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string voledevice-pa.googleapis.com --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string wa.qq.com --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string wa.tenor.co --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string wetv.vip --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string www.360drm.com --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string www.48.cn --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string www.ajax.googleapis.com --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string www.android.googleapis.com --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string www.anjianghu.net --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string www.dazibo.com --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string www.gongkaoleida.com --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string www.googleapis.com --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string www.q1.com --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string www.sf-auto.com --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string www.youtube.googleapis.com --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string wwww.googleapis.com --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string wxa.wxs.qq.com --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string wxsnsdy.video.qq.com --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string xj.gdt.qq.com --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string xj.gdtimg.com --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string yundongpkg.imgcache.qq.com --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string yutubei.googleapis.com --algo bm -j DROP
+iptables -I OUTPUT -p all -m string --string yybcms.gtimg.com --algo bm -j DROP
